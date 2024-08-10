@@ -18,7 +18,7 @@ import pro.angelogomez.mss_login.infraestructure.dto.UserDTO;
 import pro.angelogomez.mss_login.infraestructure.jwt.JWTGenerator;
 
 @RestController
-@RequestMapping("/v1")
+@RequestMapping("/api/v1")
 @AllArgsConstructor
 public class LoginController {
 

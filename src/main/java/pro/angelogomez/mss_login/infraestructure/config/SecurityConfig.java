@@ -39,7 +39,7 @@ public class SecurityConfig {
                         }
                 )
         ).csrf(csrf -> csrf.disable()).authorizeRequests(
-                aut -> aut.requestMatchers("/v1/**").permitAll().anyRequest().authenticated()
+                aut -> aut.requestMatchers("/api/v1/**").permitAll().anyRequest().authenticated()
                 ).addFilterAfter(jwtAuthorizationFilter, UsernamePasswordAuthenticationFilter.class);
 
         return httpSecurity.build();

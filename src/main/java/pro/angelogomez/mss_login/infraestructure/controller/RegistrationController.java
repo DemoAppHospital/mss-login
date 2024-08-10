@@ -16,7 +16,6 @@ import java.util.List;
 @RequestMapping("/v1")
 @AllArgsConstructor
 @Slf4j
-@CrossOrigin(origins = "http://localhost:4200")
 public class RegistrationController {
 
     private final RegistrationService registrationService;
