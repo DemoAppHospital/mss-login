@@ -13,7 +13,7 @@ import pro.angelogomez.mss_login.domain.model.User;
 import java.util.List;
 
 @RestController
-@RequestMapping("/v1")
+@RequestMapping("/api/v1")
 @AllArgsConstructor
 @Slf4j
 public class RegistrationController {
